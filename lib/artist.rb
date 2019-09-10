@@ -8,7 +8,7 @@ class Artist
   end
 
   def songs
-    @songs
+    song.all.select {|songs|}
   end
 
   def add_song(song)
